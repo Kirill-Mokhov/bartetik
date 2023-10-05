@@ -12,6 +12,8 @@
     height: 100vh;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0 10%;
+    padding-top: 40px;
 }
 
 .canvas-text__left100hv{
@@ -32,12 +34,18 @@
 }
 .canvas-text__left{
     display: flex;
-    width: 540px;
+    width: 600px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 .canvas-text__left p{
     text-align: start;
+    margin-bottom: 15px;
+}
+
+.canvas-text__right p{
+    margin-bottom: 15px;
+    
 }
 .canvas-text__right{
     display: flex;
@@ -53,6 +61,15 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    overflow: hidden;
+    line-height: 42px;
+}
+.text-down span {
+    display: inline-block;
+    width: 0;
+    transition: width 0.5s ease-out;
 }
 
 .text-down{
@@ -60,6 +77,9 @@
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0em;
+    line-height: 42px;
     text-align: right;
     color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    transition: opacity 1s ease-out;
 }

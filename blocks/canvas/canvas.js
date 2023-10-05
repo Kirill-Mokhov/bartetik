@@ -37,8 +37,7 @@ function draw() {
         circle.y += circle.vy;
 
         // Задаем цвет и размытие круга
-        ctx.fillStyle = 'rgba(19, 217, 156, 1)';
-        ctx.shadowColor = 'rgba(19, 217, 156, 1)';
+        ctx.fillStyle = 'rgba(238, 204, 11, 1)';
         ctx.shadowBlur = circle.radius * 2;
 
         // Рисуем круг на canvas
@@ -69,3 +68,25 @@ function draw() {
 
 // Запускаем анимацию
 draw();
+
+window.addEventListener('DOMContentLoaded', function () {
+    var textUppers = document.querySelectorAll('.text-upper');
+    var textDowns = document.querySelectorAll('.text-down');
+
+    for (var i = 0; i < textUppers.length; i++) {
+        (function (index) {
+            setTimeout(function () {
+                textUppers[index].style.opacity = '1';
+            }, 1000);
+        })(i);
+    }
+
+    for (var i = 0; i < textDowns.length; i++) {
+        (function (index) {
+            setTimeout(function () {
+                textDowns[index].style.opacity = '1';
+            }, 3000);
+        })(i);
+    }
+
+});

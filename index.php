@@ -7,6 +7,7 @@
     <title>Bartetik</title>
     <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="vendor/index.css">
+    <link href="https://fonts.cdnfonts.com/css/neutral-face" rel="stylesheet">
 </head>
 
 <body>
@@ -19,15 +20,20 @@
             <div class="canvas-text__left100hv">
                 <div class="canvas-text__left">
                     <p class="text-down">МЫ — КОМАНДА&nbsp;</p>
-                    <p class="text-upper">ПРОФЕССИОНАЛЬНЫХ ДИЗАЙНЕРОВ И РАЗРАБОТЧИКОВ,</p>
-                    <p class="text-down">ПОМОГАЮЩИХ БИЗНЕСУ ПРОЦВЕТАТЬ В ЦИФРОВОМ МИРЕ</p>
+                    <p class="text-upper">ПРОФЕССИОНАЛЬНЫХ&nbsp;</p>
+                    <p class="text-upper">ДИЗАЙНЕРОВ&nbsp;</p>
+                    <p class="text-upper">И РАЗРАБОТЧИКОВ,&nbsp;</p>
+                    <p class="text-down">ПОМОГАЮЩИХ БИЗНЕСУ&nbsp;</p>
+                    <p class="text-down">ПРОЦВЕТАТЬ В&nbsp;</p>
+                    <p class="text-down">ЦИФРОВОМ МИРЕ</p>
                 </div>
             </div>
             <div class="canvas-text__right100hv">
                 <div class="canvas-text__right">
                     <p class="text-down">ВАШ&nbsp;</p>
                     <p class="text-upper">УСПЕХ</p>
-                    <p class="text-down">&nbsp;— НАША&nbsp;</p>
+                    <p class="text-down">&nbsp;—&nbsp;</p>
+                    <p class="text-down">НАША&nbsp;</p>
                     <p class="text-upper">ГЛАВНАЯ ЗАДАЧА.&nbsp;</p>
                     <p class="text-down">С НАМИ&nbsp;</p>
                     <p class="text-upper">ВАШ БРЕНД</p>
