@@ -1,0 +1,65 @@
+#canvas{
+    width: 100wv;
+    height: 100hv;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container-text{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.canvas-text__left100hv{
+    position: relative;
+    display: flex;
+    width: 100%;    
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 2;
+}
+.canvas-text__right100hv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end; 
+    z-index: 2;
+}
+.canvas-text__left{
+    display: flex;
+    width: 540px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.canvas-text__left p{
+    text-align: start;
+}
+.canvas-text__right{
+    display: flex;
+    width: 686px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.text-upper{
+    font-family: Neutral Face;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text-down{
+    font-family: Neutral Face;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.6);
+}
