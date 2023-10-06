@@ -57,11 +57,16 @@
 
         </div>
 
+        <div class="about_us ">
+
+        </div>
+
     </div>
 
     <?php include('app/blocksphp/footer.php'); ?>
 
     <script src="blocks/canvas/canvas.js"></script>
+    <script src="blocks/header/header.js"></script>
     <script src="blocks/run_string/run_string.js"></script>
 </body>
 
