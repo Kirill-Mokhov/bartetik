@@ -42,23 +42,18 @@ function draw() {
 
         // Рисуем круг на canvas
         ctx.beginPath();
-        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+        ctx.arc(circle.x, circle.y, ctx.shadowBlur, 0, 2 * Math.PI);
         ctx.filter = 'blur(25px)';
         ctx.fill();
         ctx.closePath();
         //ctx.fill();
 
         // Проверка выхода круга за пределы canvas, чтобы перенести его на противоположную сторону
-        if (circle.x - circle.radius > canvas.width) {
-            circle.x = -circle.radius;
-        } else if (circle.x + circle.radius < 0) {
-            circle.x = canvas.width + circle.radius;
+        if (circle.x + circle.radius > canvas.width || circle.x - circle.radius < 0) {
+            circle.vx = -circle.vx;
         }
-
-        if (circle.y - circle.radius > canvas.height) {
-            circle.y = -circle.radius;
-        } else if (circle.y + circle.radius < 0) {
-            circle.y = canvas.height + circle.radius;
+        if (circle.y + circle.radius > canvas.height || circle.y - circle.radius < 0) {
+            circle.vy = -circle.vy;
         }
     }
 
