@@ -5,6 +5,8 @@
     top: 0;
     left: 0;
     z-index: 1;
+    opacity: 80%;
+    filter: blur(80px);
 }
 
 .container-text {
@@ -34,7 +36,7 @@
 }
 .canvas-text__left{
     display: flex;
-    width: 600px;
+    width: 700px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
@@ -49,14 +51,14 @@
 }
 .canvas-text__right{
     display: flex;
-    width: 686px;
+    width: 750px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .text-upper{
     font-family: Neutral Face;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
@@ -74,7 +76,7 @@
 
 .text-down{
     font-family: Neutral Face;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 400;
     letter-spacing: 0em;
     line-height: 42px;

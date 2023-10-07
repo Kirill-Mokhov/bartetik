@@ -18,6 +18,7 @@
 
 .run_string_item {
     flex-shrink: 0;
+    margin-right: 50px;
 }
 
 @keyframes marquee-text{
