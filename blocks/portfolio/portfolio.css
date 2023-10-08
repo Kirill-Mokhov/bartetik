@@ -1,0 +1,113 @@
+.portfolio {}
+
+.portfolio__title {
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #EECC0B 0%, #EEC40A 26.04%, #EC8704 52.59%, #EDAC08 82.8%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio__text__left {
+    width: 55%;
+    margin-right: 40%;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+
+.portfolio__blocks {}
+
+.portfolio__blocks__bg1 {
+    width: 60%;
+    margin: 50px 20%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 80px;
+
+    background: linear-gradient(275deg, #6CA0CF -17.31%, #49A3F3 18.24%, #FFF 58.19%, #FFF 119%);
+    align-items: flex-end;
+}
+
+.portfolio__blocks__bg1 img {
+    width: 30%;
+    margin: 2% 0;
+}
+
+.mbcvz {
+    width: 10% !important;
+    height: 25% !important;
+
+}
+
+.cvz {
+    width: 35% !important;
+    height: 25% !important;
+}
+
+.portfolio__blocks__logo {
+    width: 60%;
+    margin: 0 20%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45% 45%;
+    gap: 5%;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.portfolio__blocks__bg2 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.portfolio__blocks__bg2 img{
+    width: calc(height);
+    height: 90%;
+}
+
+.sovetnik {
+    border-radius: 80px;
+    background: linear-gradient(297deg, #986C14 -32.78%, #052B1F 87.92%);
+}
+
+.smk {
+    border-radius: 80px;
+    background: linear-gradient(297deg, rgba(255, 0, 0, 0.60) -32.78%, rgba(246, 0, 0, 0.00) 87.92%);
+}
+
+.veranda {
+    border-radius: 80px;
+    background: linear-gradient(37deg, #691414 6.38%, #FFF 118.72%);
+}
+
+.asha {
+    border-radius: 80px;
+    background: linear-gradient(218deg, rgba(255, 255, 255, 0.60) -26.19%, rgba(255, 176, 196, 0.60) -15.76%, rgba(159, 15, 51, 0.75) 124.58%);
+}
+
+.portfolio__text__right {
+    width: 55%;
+    margin-top: 30px;
+    margin-left: 40%;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 5%;
+}
