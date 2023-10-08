@@ -56,7 +56,7 @@
         </div>
 
         <div class="services">
-            <h2 class="services__title"></h2>
+            <h2 class="services__title">Наши услуги</h2>
             <div class="services__blocks">
                 <h3 class="services__blocks__h3">Разработка Сайтов "под ключ":</h3>
                 <p class="services__blocks__text">Создание визуально привлекательных, функциональных и SEO-оптимизированных сайтов, удовлетворяющих потребности от стартапов до крупных корпораций.</p>
@@ -117,21 +117,23 @@
             <p class="portfolio__text__left">Познакомьтесь с нашим портфолио и убедитесь в высоком качестве нашей работы. Мы гордимся каждым проектом и ценим доверие наших клиентов.</p>
             <div class="portfolio__blocks">
                 <div class="portfolio__blocks__bg1">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="images/bubnovskiy_logo.png" alt="Логотип центра восстановления здоровья">
+                    <img class="mbcvz" src="images/mbcvz.png" alt="Скрин с сайта центра восстановления здоровья с телефона">
+                    <img class="cvz" src="images/cvz.png" alt="Скрин с сайта центра восстановления здоровья с компьютера">
                 </div>
-                <div class="portfolio__blocks__bg2">
-                    <img src="" alt="">
-                </div>
-                <div class="portfolio__blocks__bg3">
-                    <img src="" alt="">
-                </div>
-                <div class="portfolio__blocks__bg4">
-                    <img src="" alt="">
-                </div>
-                <div class="portfolio__blocks__bg5">
-                    <img src="" alt="">
+                <div class="portfolio__blocks__logo">
+                    <div class="portfolio__blocks__bg2 sovetnik">
+                        <img src="images/sovetnik.png" alt="">
+                    </div>
+                    <div class="portfolio__blocks__bg2 smk">
+                        <img src="images/smk.png" alt="">
+                    </div>
+                    <div class="portfolio__blocks__bg2 veranda">
+                        <img src="images/varanda.png" alt="">
+                    </div>
+                    <div class="portfolio__blocks__bg2 asha">
+                        <img src="images/asha.png" alt="">
+                    </div>
                 </div>
             </div>
             <p class="portfolio__text__right">ЭТИ И ДРУГИЕ КОМПАНИИ УЖЕ ВОСПОЛЬЗОВАЛИСЬ НАШИМИ УСЛУГАМИ И ВЫДЕЛЯЮТСЯ СРЕДИ КОНКУРЕНТОВ</p>
@@ -139,7 +141,7 @@
         <?php include('app/blocksphp/marquee.php'); ?>
         <div class="contacts">
             <div class="contacts__blocks">
-                
+
                 <form class="form" id="form" autocomplete="off">
                     <h3>Оставьте заявку</h3>
 

@@ -1,9 +1,17 @@
 .page {
     background-color: black;
-    height: 3000px;
 }
 
 body {
     color: white;
     font-family: Neutral Face;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
