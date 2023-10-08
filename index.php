@@ -76,25 +76,40 @@
         </div>
         <div class="aboutus">
             <h2 class="aboutus__title">Почему выбирают нас?</h2>
-            <div class="aboutus__blocks">
-                <h3 class="aboutus__blocks__3">Индивидуальный Подход</h3>
-                <p class="aboutus__blocks__text">Мы учитываем уникальные потребности каждого клиента, чтобы предложить оптимальное решение.</p>
-                <p class="aboutus__blocks__numb">01</p>
-            </div>
-            <div class="aboutus__blocks">
-                <h3 class="aboutus__blocks__3">Прозрачность и Ответственность</h3>
-                <p class="aboutus__blocks__text">Оставайтесь в курсе всех этапов проекта с регулярными отчетами и обратной связью.</p>
-                <p class="aboutus__blocks__numb">02</p>
-            </div>
-            <div class="aboutus__blocks">
-                <h3 class="aboutus__blocks__3">Партнер для Роста Вашего Бизнеса</h3>
-                <p class="aboutus__blocks__text">Мы не просто создаем сайты и бренды, мы помогаем компаниям расти и достигать новых высот в цифровой среде.</p>
-                <p class="aboutus__blocks__numb">03</p>
-            </div>
-            <div class="aboutus__blocks">
-                <h3 class="aboutus__blocks__3">Результаты, которые говорят сами за себя</h3>
-                <p class="aboutus__blocks__text">У нас более 10 успешных проектов по разработке логотипов и созданию сложных сайтов</p>
-                <p class="aboutus__blocks__numb">04</p>
+
+            <div class="aboutus_flex_block">
+
+                <div class="aboutus_flex_block_column_1">
+
+                    <div class="aboutus__blocks">
+                     <h3 class="aboutus__blocks__3">Прозрачность и Ответственность</h3>
+                        <p class="aboutus__blocks__text">Оставайтесь в курсе всех этапов проекта с регулярными отчетами и обратной связью.</p>
+                        <p class="aboutus__blocks__numb">02</p>
+                    </div>
+
+                    <div class="aboutus__blocks">
+                        <h3 class="aboutus__blocks__3">Результаты, которые говорят сами за себя</h3>
+                        <p class="aboutus__blocks__text">У нас более 10 успешных проектов по разработке логотипов и созданию сложных сайтов</p>
+                        <p class="aboutus__blocks__numb">04</p>
+                    </div>
+                </div>
+
+                <div class="aboutus_flex_block_column_2">
+
+                    <div class="aboutus__blocks">
+                        <h3 class="aboutus__blocks__4">Индивидуальный Подход</h3>
+                        <p class="aboutus__blocks__text">Мы учитываем уникальные потребности каждого клиента, чтобы предложить оптимальное решение.</p>
+                        <p class="aboutus__blocks__numb">01</p>
+                    </div>
+
+                    <div class="aboutus__blocks">
+                        <h3 class="aboutus__blocks__4">Партнер для Роста Вашего Бизнеса</h3>
+                        <p class="aboutus__blocks__text">Мы не просто создаем сайты и бренды, мы помогаем компаниям расти и достигать новых высот в цифровой среде.</p>
+                        <p class="aboutus__blocks__numb">03</p>
+                    </div>
+
+                </div>
+
             </div>
         </div>
         <div class="portfolio">
