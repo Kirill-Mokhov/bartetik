@@ -183,7 +183,7 @@
             <div class="contacts__blocks1">
 
                 <form class="form" id="form" autocomplete="off">
-                    <h3>Оставьте заявку</h3>
+                    <h3 class="contacts__title">Оставьте заявку</h3>
 
                     <div class="text-field">
                         <input id="name" class="text-field__inp" type="text" name="name" required>

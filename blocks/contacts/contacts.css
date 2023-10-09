@@ -15,8 +15,16 @@
     margin-right: 10%;
 }
 
-.text-field {
+.contacts__title {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.text-field {
+    
 }
 
 .text-field__inp {
