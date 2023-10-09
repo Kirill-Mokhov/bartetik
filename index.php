@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class="black">
     <div class="page gradient">
         <?php include('app/blocksphp/header.php'); ?>
 
@@ -55,7 +56,6 @@
             <div class="firstCalc"><?php include('app/blocksphp/marquee.php'); ?></div>
         </div>
 
-
         <div id="servicesHref" class="services">
             <h2 class="services__title">Наши услуги</h2>
             <div class="services__blocks">
@@ -64,7 +64,7 @@
             </div>
             <div class="services__blocks">
                 <h3 class="services__blocks__h3">Брендинг:</h3>
-                <p class="services__blocks__text">Построение узнаваемого и доверия вызывающего бренда, который отражает уникальность вашего бизнеса.</p>
+                <p class="services__blocks__text">Построение узнаваемого и вызывающего доверие бренда, который отражает уникальность вашего бизнеса.</p>
             </div>
             <div class="services__blocks">
                 <h3 class="services__blocks__h3">Графический и Веб Дизайн:</h3>
@@ -147,7 +147,7 @@
                     <img src="images/smk.png" alt="">
                     <div class="row_portfolio_item_text">
                         <div class="row_portfolio_item_info little__box">
-                            <p><b>Клиент:</b> <span></span></p>
+                            <p><b>Клиент:</b> <span>Связь.Монтаж.Коммуникация.</span></p>
                             <p><b>Задача:</b> <span>Разработка логотипа</span></p>
                             <p><b>Категория: </b> <span>Логотип</span></p> 
                         </div>
@@ -158,7 +158,7 @@
                     <div class="row_portfolio_item_text">
                         <div class="row_portfolio_item_info little__box">
                             <p><b>Клиент:</b> <span>Веранда</span></p>
-                            <p><b>Задача:</b> <span>Разработка логотиап для </span></p>
+                            <p><b>Задача:</b> <span>Разработка логотипа для сети цветочных магазинов</span></p>
                             <p><b>Категория: </b> <span>Логотип</span></p> 
                         </div>
                     </div>
@@ -167,8 +167,8 @@
                     <img src="images/asha.png" alt="">
                     <div class="row_portfolio_item_text">
                         <div class="row_portfolio_item_info little__box">
-                            <p><b>Клиент:</b> <span>Центр Восстановления Здоровья</span></p>
-                            <p><b>Задача:</b> <span>Разработка сайта-платфоры для медицинской организации</span></p>
+                            <p><b>Клиент:</b> <span>Dari Shop</span></p>
+                            <p><b>Задача:</b> <span>Разработка логотипа для магазина одежды</span></p>
                             <p><b>Категория: </b> <span>Логотип</span></p> 
                         </div>
                     </div>
@@ -177,8 +177,10 @@
             <p class="portfolio__text__right">ЭТИ И ДРУГИЕ КОМПАНИИ УЖЕ ВОСПОЛЬЗОВАЛИСЬ НАШИМИ УСЛУГАМИ И ВЫДЕЛЯЮТСЯ СРЕДИ КОНКУРЕНТОВ</p>
         </div>
         <?php include('app/blocksphp/marquee.php'); ?>
+        
+        
         <div id="contactsHref" class="contacts">
-            <div class="contacts__blocks">
+            <div class="contacts__blocks1">
 
                 <form class="form" id="form" autocomplete="off">
                     <h3>Оставьте заявку</h3>
@@ -198,19 +200,17 @@
                     <button class="form__btn" type="submit" type="proceed">Заказать дизайн</button>
                 </form>
             </div>
-            <div class="contacts__blocks">
-                <p>Или</p>
-            </div>
-            <div class="contacts__blocks">
+            
+            <div class="contacts__blocks2">
                 <p>Свяжитесь с нами</p>
                 <p>+7 (914) 683 - 15 -46</p>
                 <p>@magby132</p>
             </div>
 
         </div>
+        </div>
 
     </div>
-
     <?php include('app/blocksphp/footer.php'); ?>
 
     <script src="blocks/canvas/canvas.js"></script>

@@ -1,9 +1,11 @@
-.portfolio {}
+.portfolio {
+    margin-bottom: 200px;
+}
 
 .portfolio__title {
     width: 90%;
     margin-left: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -15,10 +17,10 @@
 }
 
 .portfolio__text__left {
-    width: 50%;
-    margin-right: 40%;
+    width: 55%;
+    margin-right: 35%;
     text-align: left;
-    font-size: 24px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -29,14 +31,15 @@
 
 .portfolio__blocks__bg1 {
     width: 60%;
-    margin: 50px 20%;
+    margin-top: 70px;
+    margin-right: 20%;
+    margin-left: 20%;
     display: flex;
     justify-content: space-around;
-    border-radius: 80px;
     position: relative;
 
     background: linear-gradient(275deg, #6CA0CF -17.31%, #49A3F3 18.24%, #FFF 58.19%, #FFF 119%);
-    align-items: flex-end;
+    align-items: center;
 }
 
 .portfolio__blocks__bg1 img {
@@ -58,18 +61,19 @@
 .portfolio__blocks__logo {
     width: 60%;
     margin: 0 20%;
-    height: 480px;
+    height: 610px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 45% 45%;
-    gap: 5%;
+    grid-template-rows: 50% 50%;
     justify-items: center;
     align-items: center;
+    align-content: stretch;
+    justify-content: space-evenly;
 
 }
 
 .portfolio__blocks__bg2 {
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -83,35 +87,35 @@
 }
 
 .sovetnik {
-    border-radius: 80px;
+    
     background: linear-gradient(297deg, #986C14 -32.78%, #052B1F 87.92%);
 }
 
 .smk {
-    border-radius: 80px;
+    
     background: linear-gradient(297deg, rgba(255, 0, 0, 0.60) -32.78%, rgba(246, 0, 0, 0.00) 87.92%);
 }
 
 .veranda {
-    border-radius: 80px;
+    
     background: linear-gradient(37deg, #691414 6.38%, #FFF 118.72%);
 }
 
 .asha {
-    border-radius: 80px;
+   
     background: linear-gradient(218deg, rgba(255, 255, 255, 0.60) -26.19%, rgba(255, 176, 196, 0.60) -15.76%, rgba(159, 15, 51, 0.75) 124.58%);
 }
 
 .portfolio__text__right {
     width: 55%;
-    margin-top: 30px;
-    margin-left: 40%;
+    margin-top: 50px;
+    margin-left: 35%;
     text-align: right;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 5%;
+    margin-right: 15%;
     margin-bottom: 50px;
 }
 
@@ -130,8 +134,8 @@
     transition: .3s;
     top: 0;
     bottom: 0;
-    border-radius: 80px;
     color: black;
+    font-size: 18px;
 }
 
 .row_portfolio_item_info p {
@@ -169,7 +173,7 @@
 .row_portfolio_item_text a {
     padding: 1vw 2vw;
     display: table;
-    margin: 2vw 0 0;
+    margin: auto;
     border: 0 solid;
     border-radius: 100px;
     overflow: hidden;

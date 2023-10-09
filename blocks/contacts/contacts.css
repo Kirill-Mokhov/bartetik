@@ -1,0 +1,36 @@
+.contacts {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__blocks1 {
+    margin-left: 10%;
+}
+
+.contacts__blocks2 {
+    margin-right: 10%;
+}
+
+.text-field {
+
+}
+
+.text-field__inp {
+
+}
+
+.href_polit_obrabotki {
+
+}
+
+.form__btn {
+
+}
+
+.contacts__blocks {
+
+}
