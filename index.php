@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="page">
+    <div class="page gradient">
         <?php include('app/blocksphp/header.php'); ?>
 
 
@@ -52,10 +52,11 @@
                     <p class="text-down">&nbsp;КЛИЕНТОВ</p>
                 </div>
             </div>
-            <?php include('app/blocksphp/marquee.php'); ?>
+            <div class="firstCalc"><?php include('app/blocksphp/marquee.php'); ?></div>
         </div>
 
-        <div class="services">
+
+        <div id="servicesHref" class="services">
             <h2 class="services__title">Наши услуги</h2>
             <div class="services__blocks">
                 <h3 class="services__blocks__h3">Разработка Сайтов "под ключ":</h3>
@@ -74,7 +75,7 @@
                 <p class="services__blocks__text">Создание логотипа и фирменного стиля, которые останутся в памяти ваших клиентов.</p>
             </div>
         </div>
-        <div class="aboutus">
+        <div id="aboutusHref" class="aboutus">
             <h2 class="aboutus__title">Почему выбирают нас?</h2>
 
             <div class="aboutus_flex_block">
@@ -82,7 +83,7 @@
                 <div class="aboutus_flex_block_column_1">
 
                     <div class="aboutus__blocks">
-                     <h3 class="aboutus__blocks__3">Прозрачность и Ответственность</h3>
+                        <h3 class="aboutus__blocks__3">Прозрачность и Ответственность</h3>
                         <p class="aboutus__blocks__text">Оставайтесь в курсе всех этапов проекта с регулярными отчетами и обратной связью.</p>
                         <p class="aboutus__blocks__numb">02</p>
                     </div>
@@ -112,7 +113,7 @@
 
             </div>
         </div>
-        <div class="portfolio">
+        <div id="portfolioHref" class="portfolio">
             <h2 class="portfolio__title">Портфолио</h2>
             <p class="portfolio__text__left">Познакомьтесь с нашим портфолио и убедитесь в высоком качестве нашей работы. Мы гордимся каждым проектом и ценим доверие наших клиентов.</p>
             <div class="portfolio__blocks">
@@ -120,26 +121,63 @@
                     <img src="images/bubnovskiy_logo.png" alt="Логотип центра восстановления здоровья">
                     <img class="mbcvz" src="images/mbcvz.png" alt="Скрин с сайта центра восстановления здоровья с телефона">
                     <img class="cvz" src="images/cvz.png" alt="Скрин с сайта центра восстановления здоровья с компьютера">
+                    <div class="row_portfolio_item_text">
+                        <div class="row_portfolio_item_info">
+                            <p><b>Клиент:</b> <span>Центр Восстановления Здоровья</span></p>
+                            <p><b>Задача:</b> <span>Разработка сайта-платфоры для медицинской организации</span></p>
+                            <p><b>Категория: </b> <span>Сайты</span></p> 
+                            <a href="https://cvz-ussuriisk.ru/" aria-label="Открыть сайт Центра восстановления здоровья" target="_blank">Открыть сайт</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="portfolio__blocks__logo">
-                    <div class="portfolio__blocks__bg2 sovetnik">
-                        <img src="images/sovetnik.png" alt="">
+            </div>
+
+            <div class="portfolio__blocks__logo">
+                <div class="portfolio__blocks__bg2 sovetnik">
+                    <img src="images/sovetnik.png" alt="">
+                    <div class="row_portfolio_item_text">
+                        <div class="row_portfolio_item_info little__box">
+                            <p><b>Клиент:</b> <span>СоветникЪ</span></p>
+                            <p><b>Задача:</b> <span>Разработка логотипа для юридической организации</span></p>
+                            <p><b>Категория: </b> <span>Логотип</span></p> 
+                        </div>
                     </div>
-                    <div class="portfolio__blocks__bg2 smk">
-                        <img src="images/smk.png" alt="">
+                </div>
+                <div class="portfolio__blocks__bg2 smk">
+                    <img src="images/smk.png" alt="">
+                    <div class="row_portfolio_item_text">
+                        <div class="row_portfolio_item_info little__box">
+                            <p><b>Клиент:</b> <span></span></p>
+                            <p><b>Задача:</b> <span>Разработка логотипа</span></p>
+                            <p><b>Категория: </b> <span>Логотип</span></p> 
+                        </div>
                     </div>
-                    <div class="portfolio__blocks__bg2 veranda">
-                        <img src="images/varanda.png" alt="">
+                </div>
+                <div class="portfolio__blocks__bg2 veranda">
+                    <img src="images/varanda.png" alt="">
+                    <div class="row_portfolio_item_text">
+                        <div class="row_portfolio_item_info little__box">
+                            <p><b>Клиент:</b> <span>Веранда</span></p>
+                            <p><b>Задача:</b> <span>Разработка логотиап для </span></p>
+                            <p><b>Категория: </b> <span>Логотип</span></p> 
+                        </div>
                     </div>
-                    <div class="portfolio__blocks__bg2 asha">
-                        <img src="images/asha.png" alt="">
+                </div>
+                <div class="portfolio__blocks__bg2 asha">
+                    <img src="images/asha.png" alt="">
+                    <div class="row_portfolio_item_text">
+                        <div class="row_portfolio_item_info little__box">
+                            <p><b>Клиент:</b> <span>Центр Восстановления Здоровья</span></p>
+                            <p><b>Задача:</b> <span>Разработка сайта-платфоры для медицинской организации</span></p>
+                            <p><b>Категория: </b> <span>Логотип</span></p> 
+                        </div>
                     </div>
                 </div>
             </div>
             <p class="portfolio__text__right">ЭТИ И ДРУГИЕ КОМПАНИИ УЖЕ ВОСПОЛЬЗОВАЛИСЬ НАШИМИ УСЛУГАМИ И ВЫДЕЛЯЮТСЯ СРЕДИ КОНКУРЕНТОВ</p>
         </div>
         <?php include('app/blocksphp/marquee.php'); ?>
-        <div class="contacts">
+        <div id="contactsHref" class="contacts">
             <div class="contacts__blocks">
 
                 <form class="form" id="form" autocomplete="off">

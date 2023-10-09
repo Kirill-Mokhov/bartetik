@@ -11,3 +11,24 @@ window.addEventListener('scroll', function () {
         header.classList.remove('show');
     }
 });
+
+document.querySelector('a[href="#canvas"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('canvas').scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector('a[href="#servicesHref"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('servicesHref').scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector('a[href="#aboutusHref"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('aboutusHref').scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector('a[href="#portfolioHref"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('portfolioHref').scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector('a[href="#contactsHref"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('contactsHref').scrollIntoView({ behavior: 'smooth' });
+});

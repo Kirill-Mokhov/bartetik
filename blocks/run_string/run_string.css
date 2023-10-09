@@ -5,8 +5,12 @@
     overflow: hidden;
     position: relative;
     top: 0px;
-    left: calc(-82vw + 90%);
     z-index: 2;
+}
+
+.firstCalc{
+    position: relative;
+    left: calc(-82vw + 90%);
 }
 
 .run_string {
