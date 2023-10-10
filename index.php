@@ -186,25 +186,27 @@
                     <h3 class="contacts__title">Оставьте заявку</h3>
 
                     <div class="text-field">
-                        <input id="name" class="text-field__inp" type="text" name="name" required>
-                        <label class="text-field__placeholder">Ваше имя</label>
+                        <input id="name" class="text-field__inp" type="text" name="name" required placeholder="Ваше имя">
                     </div>
                     <div class="text-field">
-                        <input id="tel" class="text-field__inp" type="tel" name="tel" required>
-                        <label class="text-field__placeholder">Ваш телефон</label>
+                        <input id="tel" class="text-field__inp" type="tel" name="tel" required placeholder="Контакт для связи">
                     </div>
-                    <div>
+                    <div class="contacts__doc">
                         <input type="checkbox" id="terms" required>
                         <label for="terms">Я подтверждаю ознакомление с <a class="href_polit_obrabotki" href="docs/Политика обработки персональных данных.docx">Политикой обработки персональных данных</a> и даю согласие на обработку персональных данных в порядке и на условиях указанных в Политике.</label>
                     </div>
-                    <button class="form__btn" type="submit" type="proceed">Заказать дизайн</button>
+                    <button class="form__btn" type="submit" type="proceed">Заказать работу</button>
                 </form>
             </div>
             
             <div class="contacts__blocks2">
-                <p>Свяжитесь с нами</p>
-                <p>+7 (914) 683 - 15 -46</p>
-                <p>@magby132</p>
+
+                <div class="contacts__block2__group">
+                    <h3 class="contacts__title2">Свяжитесь с нами</h3>
+                    <p class="contacts__pochta">bartetik.design@bk.ru</p>
+                    <p class="contacts__number"><a href="tel:+79146831546">+7 (914) 683 - 15 - 46</a></p>
+                    <p class="contacts__tg">TG: @magby132</p>
+                </div>
             </div>
 
         </div>
