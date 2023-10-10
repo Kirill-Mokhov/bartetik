@@ -111,15 +111,7 @@ label {
     content: "";
     z-index: -2;
     background-size: 400% 400%;
-    background: linear-gradient(60deg,
-            #f79533,
-            #f37055,
-            #ef4e7b,
-            #a166ab,
-            #5073b8,
-            #1098ad,
-            #07b39b,
-            #6fba82);
+    background: linear-gradient(135deg, #008aff, #86d472);
 }
 
 .form__btn:before {
