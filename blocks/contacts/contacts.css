@@ -8,7 +8,7 @@
 }
 
 .contacts__blocks1 {
-    height: 100%;
+    height: 80%;
     margin-left: 10%;
     width: 40%;
     display: flex;
@@ -186,3 +186,34 @@ label {
     margin-bottom: 10%;
 }
 
+@media screen and (max-width: 430px) {
+
+    .contacts {
+        margin-top: 10vh;
+        flex-direction: column;
+    }
+
+    .contacts__blocks1 {
+        height: 80%;
+        margin-left: 10%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts__title {
+        font-size: 26px;
+        width: 80%;
+    }
+
+    .contacts__blocks2 {
+        height: 80%;
+        width: 80%;
+    }
+
+    .contacts__title2 {
+        font-size: 26px;
+        width: 80%;
+    }
+}

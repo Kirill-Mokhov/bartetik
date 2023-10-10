@@ -14,11 +14,11 @@ const circles = [];
 
 // Генерируем случайные значения для радиуса, координат и скорости каждого круга
 for (let i = 0; i < numCircles; i++) {
-    const radius = Math.random() * 50 + 10;
+    const radius = Math.random() * (Math.min(canvas.width, canvas.height) / 20) + 10;
     const x = Math.random() * canvas.width;
     const y = Math.random() * canvas.height;
-    const vx = Math.random() * 2 - 1; // Горизонтальная скорость
-    const vy = Math.random() * 2 - 1; // Вертикальная скорость
+    const vx = Math.random() * 4 - 1; // Горизонтальная скорость
+    const vy = Math.random() * 4 - 1; // Вертикальная скорость
 
     circles.push({ x, y, radius, vx, vy });
 }
@@ -43,7 +43,7 @@ function draw() {
         // Рисуем круг на canvas
         ctx.beginPath();
         ctx.arc(circle.x, circle.y, ctx.shadowBlur, 0, 2 * Math.PI);
-        ctx.filter = 'blur(25px)';
+        ctx.filter = 'blur(40px)';
         ctx.fill();
         ctx.closePath();
         //ctx.fill();
