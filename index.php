@@ -203,7 +203,7 @@
 
                 <div class="contacts__block2__group">
                     <h3 class="contacts__title2">Свяжитесь с нами</h3>
-                    <p class="contacts__pochta">bartetik.design@bk.ru</p>
+                    <p class="contacts__pochta">mail@bartetik.design</p>
                     <p class="contacts__number"><a href="tel:+79146831546">+7 (914) 683 - 15 - 46</a></p>
                     <p class="contacts__tg">TG: @magby132</p>
                 </div>
