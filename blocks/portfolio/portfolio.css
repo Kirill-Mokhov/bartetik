@@ -82,8 +82,8 @@
 }
 
 .portfolio__blocks__bg2 img{
-    width: calc(height);
-    height: 90%;
+    width: 70%;
+    box-sizing: border-box;
 }
 
 .sovetnik {
