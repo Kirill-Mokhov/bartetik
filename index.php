@@ -24,33 +24,37 @@
             </div>
             <div class="canvas-text__left100hv">
                 <div class="canvas-text__left">
-                    <p class="text-down">МЫ — КОМАНДА&nbsp;</p>
-                    <p class="text-upper">ПРОФЕССИОНАЛЬНЫХ&nbsp;</p>
-                    <p class="text-upper">ДИЗАЙНЕРОВ&nbsp;</p>
-                    <p class="text-upper">И РАЗРАБОТЧИКОВ,&nbsp;</p>
-                    <p class="text-down">ПОМОГАЮЩИХ БИЗНЕСУ&nbsp;</p>
-                    <p class="text-down">ПРОЦВЕТАТЬ В&nbsp;</p>
+                    <p class="text-down">МЫ — КОМАНДА</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ПРОФЕССИОНАЛЬНЫХ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ДИЗАЙНЕРОВ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">И</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">РАЗРАБОТЧИКОВ,</p>                    <p>&nbsp;</p>
+                    <p class="text-down">ПОМОГАЮЩИХ БИЗНЕСУ</p>                    <p>&nbsp;</p>
+                    <p class="text-down">ПРОЦВЕТАТЬ В</p>                    <p>&nbsp;</p>
                     <p class="text-down">ЦИФРОВОМ МИРЕ</p>
                 </div>
             </div>
             <div class="canvas-text__right100hv">
                 <div class="canvas-text__right">
-                    <p class="text-down">ВАШ&nbsp;</p>
-                    <p class="text-upper">УСПЕХ</p>
-                    <p class="text-down">&nbsp;—&nbsp;</p>
-                    <p class="text-down">НАША&nbsp;</p>
-                    <p class="text-upper">ГЛАВНАЯ ЗАДАЧА.</p>
-                    <p class="text-down">С НАМИ&nbsp;</p>
-                    <p class="text-upper">ВАШ БРЕНД</p>
-                    <p class="text-down">&nbsp;БУДЕТ&nbsp;</p>
+                    <p class="text-down">ВАШ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">УСПЕХ</p>                    <p>&nbsp;</p>
+                    <p class="text-down">—</p>                    <p>&nbsp;</p>
+                    <p class="text-down">НАША</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ГЛАВНАЯ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ЗАДАЧА.</p>
+                    <p class="text-down">С НАМИ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ВАШ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">БРЕНД</p>                    <p>&nbsp;</p>
+                    <p class="text-down">БУДЕТ</p>                    <p>&nbsp;</p>
                     <p class="text-upper">ЗАМЕТЕН,</p>
-                    <p class="text-down">А САЙТ&nbsp;</p>
-                    <p class="text-upper">ЭФФЕКТИВНЫМ</p>
-                    <p class="text-down">&nbsp;ИНСТРУМЕНТОМ&nbsp;</p>
-                    <p class="text-upper">ДЛЯ УВЕЛИЧЕНИЯ</p>
-                    <p class="text-down">&nbsp;ПРОДАЖ&nbsp;</p>
-                    <p class="text-upper">И ПРИВЛЕЧЕНИЯ</p>
-                    <p class="text-down">&nbsp;КЛИЕНТОВ</p>
+                    <p class="text-down">А САЙТ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ЭФФЕКТИВНЫМ</p>                    <p>&nbsp;</p>
+                    <p class="text-down">ИНСТРУМЕНТОМ</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ДЛЯ</p>
+                    <p class="text-upper">УВЕЛИЧЕНИЯ</p>                    <p>&nbsp;</p>
+                    <p class="text-down">ПРОДАЖ И</p>                    <p>&nbsp;</p>
+                    <p class="text-upper">ПРИВЛЕЧЕНИЯ</p>
+                    <p class="text-down">КЛИЕНТОВ</p>                    <p>&nbsp;</p>
                 </div>
             </div>
             <div class="firstCalc"><?php include('app/blocksphp/marquee.php'); ?></div>
@@ -218,6 +222,7 @@
     <script src="blocks/canvas/canvas.js"></script>
     <script src="blocks/header/header.js"></script>
     <script src="blocks/run_string/run_string.js"></script>
+    <script src="blocks/textanim/animatedtext.js"></script>
 </body>
 
 </html>
