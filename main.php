@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . '../vendor/autoload.php';
-$settings = require_once __DIR__ . '/settings.php';
-require_once __DIR__ . '/functions.php';
+require_once __DIR__ . '/vendor/autoload.php';
+$settings = require_once __DIR__ . '/http/settings.php';
+require_once __DIR__ . '/http/functions.php';
 
 $json = file_get_contents('php://input'); // Получение json строки
 $data = json_decode($json, true); // Преобразование json

@@ -219,6 +219,9 @@
     </div>
     <?php include('app/blocksphp/footer.php'); ?>
 
+    <script src="js/inputmask.min.js"></script>
+	<script src="js/just-validate.min.js"></script>
+	<script type="module" src="js/main.js" ></script>
     <script src="blocks/canvas/canvas.js"></script>
     <script src="blocks/header/header.js"></script>
     <script src="blocks/run_string/run_string.js"></script>
