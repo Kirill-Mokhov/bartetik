@@ -4,6 +4,8 @@
     width: 100%;
     align-items: baseline;
     height: 100vh;
+    z-index: 1;
+    position: relative;
 }
 
 .contacts__blocks1 {
