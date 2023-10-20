@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: baseline;
+    align-items: center;
     height: 100vh;
     z-index: 1;
     position: relative;
@@ -188,7 +188,7 @@ label {
 
     .contacts__blocks1 {
         height: 80%;
-        margin-left: 10%;
+        margin-left: 0;
         width: 80%;
         display: flex;
         align-items: center;
@@ -203,6 +203,7 @@ label {
     .contacts__blocks2 {
         height: 80%;
         width: 80%;
+        margin-right: 0;
     }
 
     .contacts__title2 {
