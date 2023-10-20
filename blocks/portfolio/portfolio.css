@@ -70,7 +70,7 @@
     margin: 0 20%;
     height: 610px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     justify-items: center;
     align-items: center;
@@ -228,8 +228,8 @@
     }
 
     .portfolio__blocks__logo {
-        width: 333px;
-        margin: 0 42px;
+        width: 80%;
+        margin: 0 10%;
         height: 200px;
     }
 
