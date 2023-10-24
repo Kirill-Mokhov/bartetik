@@ -25,6 +25,18 @@
     margin: 0;
   }
   
+
+    a {
+      opacity: 1;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+  
+    a:hover {
+      opacity: 0.6;
+    }
+
+    
   /**
    * Render the `main` element consistently in IE.
    */
