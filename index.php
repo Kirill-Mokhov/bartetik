@@ -35,7 +35,7 @@
 
 
         <canvas id="canvas"></canvas>
-        <div class="container-text">
+        <div class="container-text" id="about">
             <div class="fake__header">
 
             </div>
@@ -67,10 +67,10 @@
                     <p class="text-down">А САЙТ</p>                    <p>&nbsp;</p>
                     <p class="text-upper">ЭФФЕКТИВНЫМ</p>                    <p>&nbsp;</p>
                     <p class="text-down">ИНСТРУМЕНТОМ</p>                    <p>&nbsp;</p>
-                    <p class="text-upper">ДЛЯ</p>
+                    <p class="text-upper">ДЛЯ</p>                               <p>&nbsp;</p>
                     <p class="text-upper">УВЕЛИЧЕНИЯ</p>                    <p>&nbsp;</p>
                     <p class="text-down">ПРОДАЖ И</p>                    <p>&nbsp;</p>
-                    <p class="text-upper">ПРИВЛЕЧЕНИЯ</p>
+                    <p class="text-upper">ПРИВЛЕЧЕНИЯ</p><p>&nbsp;</p>
                     <p class="text-down">КЛИЕНТОВ</p>                    <p>&nbsp;</p>
                 </div>
             </div>

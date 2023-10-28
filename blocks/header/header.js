@@ -1,5 +1,6 @@
 var header = document.querySelector('.header');
 var screenHeight = window.innerHeight;
+const headerHeight = header.offsetHeight;
 
 // При прокрутке страницы
 window.addEventListener('scroll', function () {
@@ -12,23 +13,26 @@ window.addEventListener('scroll', function () {
     }
 });
 
-document.querySelector('a[href="#canvas"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('canvas').scrollIntoView({ behavior: 'smooth' });
-});
-document.querySelector('a[href="#servicesHref"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('servicesHref').scrollIntoView({ behavior: 'smooth' });
-});
-document.querySelector('a[href="#aboutusHref"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('aboutusHref').scrollIntoView({ behavior: 'smooth' });
-});
-document.querySelector('a[href="#portfolioHref"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('portfolioHref').scrollIntoView({ behavior: 'smooth' });
-});
-document.querySelector('a[href="#contactsHref"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('contactsHref').scrollIntoView({ behavior: 'smooth' });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Обработчик клика по ссылкам
+    const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(function (link, index) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            let additionalPixels;
+            if (index != links.length - 1) {
+                additionalPixels = 15;
+            } else {
+                additionalPixels = 0;
+            }
+            const target = document.querySelector(this.getAttribute('href'));
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - (headerHeight + additionalPixels);
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
 });
