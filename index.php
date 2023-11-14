@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta itemprop="header_logo_big.png" content="https://bartetik.design">
+    <meta property="og:image" content="images/header_logo_big.png">
     <link rel="shortcut icon" href="images/page_title_logo.png" type="image/x-icon">
     <title>Bartetik Design</title>
     <link rel="stylesheet" href="vendor/normalize.css">
